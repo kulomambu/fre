@@ -1,0 +1,86 @@
+{
+  "Account": {
+    "Username": "syahrulray2",
+    "Password": "zxcvcxz123",
+    "Currency": "Doge",
+    "2FA": "OFF",
+    "Auto Proxy": "OFF",
+    "API Access": "OFF"
+  },
+  "Target Profit": "100000",
+  "Target Win": "10000",
+  "Lose Target": "0",
+  "Interval": "0",
+  "Betset": [
+    {
+      "Name Bet Set": "00 - @riosuyanto SETTING",
+      "Base Bet": "0.00001",
+      "Stop Max Bet": "OFF",
+      "Max Bet": "OFF",
+      "Chance": "5",
+      "Random Chance": {
+        "Toggle": "ON",
+        "Min": "5",
+        "Max": "5.05"
+      },
+      "Bet": {
+        "Bet": "Low",
+        "Hi / Low": {
+          "Toggle": "ON",
+          "If Lose": "1",
+          "If Win": "1"
+        }
+      },
+      "Mode1": {
+        "Toggle": "OFF",
+        "Prebet": "0.0000001",
+        "Start Strike If Win": "1",
+        "Limit Strike If Win": "7",
+        "Start Multi": "1",
+        "Limit Multi": "1.3"
+      },
+      "Mode2": {
+        "Toggle": "ON",
+        "Prebet": "0.0000001",
+        "Preroll": "40",
+        "Multipler": "1.059"
+      },
+      "Mode3": {
+        "Toggle": "OFF",
+        "Prebet": "0.0000001",
+        "Preroll": "50",
+        "Multipler": "1.11",
+        "Max LS Strike": "60"
+      },
+      "Mode4": {
+        "Toggle": "OFF",
+        "Prebet": "0.0000001",
+        "Start Fishing": "1",
+        "Stop Fishing": "2",
+        "Multipler": "1.025"
+      },
+      "Fibonacci1": {
+        "Toggle": "OFF",
+        "Prebet": "0.0000001",
+        "Preroll": "40",
+        "Max LS Strike": "80"
+      },
+      "If Win": "1",
+      "If Lose": "2",
+      "Reset If Win": "1",
+      "Reset If Profit": "0.0000001",
+      "Interval": "0"
+    }
+  ],
+  "Proxy Manual": {
+    "Toggle": "OFF",
+    "Ip": "103.152.119.231",
+    "Port": "8080"
+  },
+  "Auto Wd": {
+    "Toggle": "OFF",
+    "If Balance": "0",
+    "Wallet Address": "XXXXXXX",
+    "Amount": "0"
+  }
+}
